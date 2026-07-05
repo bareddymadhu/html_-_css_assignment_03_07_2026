@@ -7,7 +7,7 @@
     margin-left: 20%;
     
 }
-.boxmodel{
+/* boxmodel{
     display:grid;
     grid-template-columns: repeat(2, 3fr);
     gap: 10px;
@@ -15,7 +15,7 @@
     padding:0px;
     background-color:#038bfb;
     text-align: center;
-}
+}. */
 .box img{
     height:100px;
     width:100px;
