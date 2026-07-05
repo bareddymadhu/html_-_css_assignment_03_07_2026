@@ -1,0 +1,36 @@
+.box{
+    height:200px;
+    width:200px;
+    padding:20px;
+    border:5px solid black;
+    margin:10px;
+    margin-left: 20%;
+    
+}
+.boxmodel{
+    display:grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 10px;
+    margin:0px;
+    padding:0px;
+    background-color:#038bfb;
+    text-align: center;
+}
+.box img{
+    height:100px;
+    width:100px;
+}
+.box p{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* 
+Create a new HTML file named index.html and a new CSS file named styles.css.
+In index.html, create a <div> element with a class of box.
+In styles.css, target the .box class and apply the following styles:
+Set the width and height to 200px.
+Add a padding of 20px.
+Add a border of 5px solid black.
+Set the margin to 10px.
+Use the browser's developer tools to inspect the .box element and verify that the box model is applied correctly, observing the content, padding, border, and margin areas. */
